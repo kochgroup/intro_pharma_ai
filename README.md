@@ -1,3 +1,3 @@
-# Einführung KI
+# Eine Einführung in die Künstliche Intelligenz
 
 
