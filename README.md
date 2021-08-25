@@ -7,7 +7,7 @@ Wir befinden uns auf der GitHub Seite des Kurses "Eine Einführung in die Künst
 
 **Bevor Sie weiter lesen:**
 Laden Sie bitte dieses sogenatte *Repository* herunter. Dafür klicken Sie einfach oben rechts auf den grünen Button *Code* und dannach auf *Download ZIP*.  
-
+![](Notebooks/Img/install_git.png)
 ### Installation
 
 
