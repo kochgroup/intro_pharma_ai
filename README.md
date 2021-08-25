@@ -1,8 +1,13 @@
-# Willkommen zum Kurs "Eine Einführung in die Künstliche Intelligenz"
+
+<h2 align ="center">Wilkommen zum Kurs <br> "Eine Einführung in die Künstliche Intelligenz"</h2>
 
 ![](Notebooks/Img/hello.png)
 
 
+### Installation
+
+
+### Wochenplan 
 
 Woche | Vorlesung | Praktikum
 ------------ | ------------- | -------------
