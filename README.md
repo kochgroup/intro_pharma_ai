@@ -31,6 +31,8 @@ Hierfür gibt es drei Möglichkeiten:
    Google Collab stellt mehr Resourcen zu Verfügung als die WWU, allerdings ist ein Google Account nötig.
    **Als Lehrveranstaltung der Uni Münster weisen wir darauf hin, dass das Benutzen eines Google Service keine Notwendigkeit ist.** Wir bieten zwei Alternativen die  Sie nutzen können. Doch letzen Endes liegt es in ihrem Ermessen welchen Service Sie nutzen wollen. 
    
+   Auch ist zu beachten, dass bei der Benutzung von Google Collab manche Software Packete immer wieder von neuen Installiert werden müssen.
+   
 ### Wochenplan 
 
 Woche | Vorlesung | Praktikum
