@@ -39,7 +39,7 @@ Woche | Vorlesung | Praktikum
 ------------ | ------------- | -------------
 Woche 1 | - | Einführung Praktikum
 Woche 2  | - | Einführung Cheminformatik
-Woche 3| -| -
+Woche 3| -| Data Science
 Woche 4| -| -
 Woche 5| -| -
 Woche 6| -| -
