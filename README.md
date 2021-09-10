@@ -37,17 +37,17 @@ Hierfür gibt es drei Möglichkeiten:
 
 Woche | Vorlesung | Praktikum
 ------------ | ------------- | -------------
-Woche 1 | - | Einführung Praktikum
+Woche 1 | - | Installation - Einführung Python
 Woche 2  | - | Einführung Cheminformatik
-Woche 3| -| Data Science
-Woche 4| -| -
-Woche 5| -| -
-Woche 6| -| -
-Woche 7| -| -
-Woche 8| -| -
-Woche 9| -| -
-Woche 10| -| -
-Woche 11| -| -
-Woche 12| -| -
-Woche 13| -| -
-Woche 14| -| -
+Woche 3| -| Einführung Statistik Teil 1
+Woche 4| -| Einführung Statisti Teil 2?
+Woche 5| -| Why do we split train and test?
+Woche 6| -| Einfaches Neuronales Netz
+Woche 7| -| Neuronales Netz mit Pytorch
+Woche 8| -| CNN - MNIST
+Woche 9| -| CNN - Transfer Learning
+Woche 10| -| RNN - SMILES
+Woche 11| -| Autoencoder
+Woche 12| -| Graph Neural Networks
+Woche 13| -| RISSE
+Woche 14| -| Own Work
