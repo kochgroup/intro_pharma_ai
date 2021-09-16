@@ -1,7 +1,7 @@
 
 <h2 align ="center">Wilkommen zum Kurs <br> "Eine Einführung in die Künstliche Intelligenz"</h2>
 
-![](Notebooks/Img/hello.png)
+![](Notebooks/Img/general/hello.png)
 
 Wir befinden uns auf der GitHub Seite des Kurses "Eine Einführung in die Künstliche Intelligenz". Hier findet ihr alle relevanten Informationen und Dateien die für den Kurs benötigt werden.
 
