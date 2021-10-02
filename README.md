@@ -37,17 +37,17 @@ Hierfür gibt es drei Möglichkeiten:
 
 Woche | Vorlesung | Praktikum
 ------------ | ------------- | -------------
-Woche 1 | - | Installation - Einführung Python
-Woche 2  | - | Einführung Cheminformatik
-Woche 3| -| Einführung Statistik Teil 1
-Woche 4| -| Einführung Statisti Teil 2?
-Woche 5| -| Why do we split train and test?
-Woche 6| -| Einfaches Neuronales Netz
-Woche 7| -| Neuronales Netz mit Pytorch
-Woche 8| -| CNN - MNIST
-Woche 9| -| CNN - Transfer Learning
-Woche 10| -| RNN - SMILES
-Woche 11| -| Autoencoder
-Woche 12| -| Graph Neural Networks
-Woche 13| -| RISSE
-Woche 14| -| Own Work
+Woche 1 | Apothkerkammer Vorlesung | Installation - Basic Jupyter Notebook
+Woche 2 | Einführung Cheminformatik | Einführung Python
+Woche 3 | Lineare Regression | Einführung Cheminformatik
+Woche 4 | Data Science - SVM/RF | Einführung Statistik
+Woche 5 | Neuronales Netzwerk Teil 1 | Why do we split train and test?
+Woche 6 | Neuronales Netzwerk Teil 2| Einfaches Neuronales Netz
+Woche 7 | Advanced Neural Network | Neuronales Netz mit Pytorch
+Woche 8 | CNN | CNN - MNIST
+Woche 9 | CNN Teil 2| CNN - Transfer Learning
+Woche 10| Basic RNN | RNN - SMILES
+Woche 11| Autoencoders| Autoencoder
+Woche 12| Graph Neuronale Netzwerke| Graph Neural Networks
+Woche 13| Risse| RISSE
+Woche 14| Own Work| Own Work
