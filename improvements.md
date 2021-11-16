@@ -1,5 +1,6 @@
 # Algemein
 - Lernziele hinzufügen
+- min_max scaling der testdaten mit den werten des trainingsdatensatzes
 
 # Woche 02
 - Funktionen deutlicher klären
