@@ -51,3 +51,7 @@ Woche 11| Autoencoders| Autoencoder
 Woche 12| Graph Neuronale Netzwerke| Graph Neural Networks
 Woche 13| Risse| RISSE
 Woche 14| Own Work| Own Work
+
+# Weitere Informationen
+
+[ImageNet Background](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/)
