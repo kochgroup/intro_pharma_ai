@@ -3,6 +3,8 @@ from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit.Chem import Draw, AllChem
 from rdkit import Chem
 from tqdm import tqdm
+from torch import nn
+import torch
 import numpy as np
 import pandas as pd
 import random
@@ -130,3 +132,62 @@ def hide_toggle(for_next=False):
     )
 
     return HTML(html)
+
+def create_dict(smiles, add_tokens=False):
+    vocabulary = []    
+    if add_tokens: 
+        vocabulary=["<sos>", "<eos>", "<pad>"]
+    for smile in smiles:
+        atoms = []
+        i=0
+        while i < len(smile):
+            if smile[i:i+2]== "Br":
+                atoms.append("Br")
+                i+=2
+            elif smile[i:i+2]== "Cl":
+                atoms.append("Cl")
+                i+=2    
+            else:
+                atoms.append(smile[i])
+                i+=1
+                
+        vocabulary += list(set(atoms)-set(vocabulary))
+    return {vocabulary[i]: i for i in range(len(vocabulary))}   
+
+
+def tokenize(smiles, dictionary):
+    token_smiles = []
+    for smile in smiles:
+        token_smile= []
+        i = 0
+        while i < len(smile):
+            if (smile[i:i+2]=="Cl"):
+                token_smile.append(dictionary["Cl"])
+                i+=2
+            elif (smile[i:i+2]=="Br"):
+                token_smile.append(dictionary["Br"])
+                i+=2
+            else:
+                token_smile.append(dictionary[smile[i]])
+                i+=1
+        token_smiles.append(token_smile)   
+    return token_smiles
+
+
+def token_to_onehot(tokenized_smiles, vocabulary_length):
+    one_hot_ll = list()
+    for smile in tokenized_smiles:
+        one_hot_matrix=np.zeros([len(smile),vocabulary_length])
+        for i, token in enumerate(smile):
+            one_hot_matrix[i,token]=1
+        one_hot_ll.append(one_hot_matrix)
+    return np.stack(one_hot_ll)
+
+
+class Permute(nn.Module):
+    def __init__(self,*args):
+        super(Permute, self).__init__()
+        self.shape = args
+        
+    def forward(self, x):
+        return x.permute(self.shape)
