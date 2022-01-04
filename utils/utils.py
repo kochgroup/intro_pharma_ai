@@ -146,7 +146,13 @@ def create_dict(smiles, add_tokens=False):
                 i+=2
             elif smile[i:i+2]== "Cl":
                 atoms.append("Cl")
-                i+=2    
+                i+=2
+            elif smile[i:i+2]== "Si":
+                atoms.append("Si")
+                i+=2
+            elif smile[i:i+2]== "Cr":
+                atoms.append("Cr")
+                i+=2   
             else:
                 atoms.append(smile[i])
                 i+=1
@@ -155,11 +161,14 @@ def create_dict(smiles, add_tokens=False):
     return {vocabulary[i]: i for i in range(len(vocabulary))}   
 
 
-def tokenize(smiles, dictionary):
+def tokenize(smiles, dictionary, add_tokens = False):
     token_smiles = []
     for smile in smiles:
         token_smile= []
         i = 0
+        
+        if add_tokens:
+            token_smile.append(dictionary["<sos>"])    
         while i < len(smile):
             if (smile[i:i+2]=="Cl"):
                 token_smile.append(dictionary["Cl"])
@@ -167,9 +176,17 @@ def tokenize(smiles, dictionary):
             elif (smile[i:i+2]=="Br"):
                 token_smile.append(dictionary["Br"])
                 i+=2
+            elif (smile[i:i+2]=="Si"):
+                token_smile.append(dictionary["Si"])
+                i+=2
+            elif (smile[i:i+2]=="Cr"):
+                token_smile.append(dictionary["Cr"])
+                i+=2
             else:
                 token_smile.append(dictionary[smile[i]])
                 i+=1
+        if add_tokens:
+            token_smile.append(dictionary["<eos>"])
         token_smiles.append(token_smile)   
     return token_smiles
 
