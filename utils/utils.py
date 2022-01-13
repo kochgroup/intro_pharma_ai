@@ -208,3 +208,49 @@ class Permute(nn.Module):
         
     def forward(self, x):
         return x.permute(self.shape)
+
+
+def tokens_to_smiles(tokens, dictionary):
+    inv_dictionary = {dictionary[k] : k for k in dictionary}
+    smiles_ll = []
+    for i,mol in enumerate(tokens):
+        smile_ll = ""
+        for k in range(1, mol.shape[0]):
+            if inv_dictionary[mol[k]] == "<eos>":
+                break
+            else:
+                smile_ll+=inv_dictionary[mol[k]]
+
+        smiles_ll.append(smile_ll)
+    return smiles_ll
+
+def evaluate(model, loader, dictionary):
+    model.eval()
+    perc_valid_ll  = []
+    perc_ident_ll = []
+    for input_seq, output_seq in iter(loader):
+        input_seq = input_seq.t()
+        output_seq = output_seq.t()
+        pred = model(input_seq, output_seq, 0.)
+        pred_tokens = torch.argmax(pred,2).t().detach().numpy()
+
+        smiles_pred = tokens_to_smiles(pred_tokens, dictionary)
+        smiles_true = tokens_to_smiles(output_seq.t().detach().numpy(), dictionary)
+
+        valid_smiles_count = 0
+        for smile in smiles_pred:
+            if Chem.MolFromSmiles(smile) != None:
+                valid_smiles_count +=1
+
+        valid_smiles_count /= len(smiles_true)
+        perc_valid_ll.append(valid_smiles_count)
+
+        smiles_ident = 0
+        for i in range(len(smiles_pred)):
+            if smiles_pred[i] == smiles_true[i]:
+                smiles_ident += 1
+
+        perc_ident_ll.append(smiles_ident/len(smiles_pred))   
+
+    return np.sum(perc_valid_ll)/len(loader), np.sum(perc_ident_ll)/len(loader)
+

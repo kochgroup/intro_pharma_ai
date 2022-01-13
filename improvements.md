@@ -12,3 +12,8 @@
 -  FPR ist falsch
 -  AUC von 0 beduetet nicht perfekte Klassifizering nur flasch rum
 
+# WOCHE CNN Fehler durch default parameter bei Convolitopm
+
+# Woche  RNN 
+
+transpose input -> dadurch spart man sich das Permute
