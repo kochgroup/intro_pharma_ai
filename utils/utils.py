@@ -239,8 +239,11 @@ def evaluate(model, loader, dictionary):
 
         valid_smiles_count = 0
         for smile in smiles_pred:
-            if Chem.MolFromSmiles(smile) != None:
-                valid_smiles_count +=1
+            try:
+                if Chem.MolFromSmiles(smile) != None:
+                    valid_smiles_count +=1
+            except:
+                None
 
         valid_smiles_count /= len(smiles_true)
         perc_valid_ll.append(valid_smiles_count)
