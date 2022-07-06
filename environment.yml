@@ -1,4 +1,4 @@
-name: intro_kiv2
+name: intro_ai
 channels:
   - rdkit
   - pytorch
