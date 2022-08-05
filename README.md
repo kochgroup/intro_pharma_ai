@@ -44,9 +44,11 @@ Notebook | English | German
 **07\. Your first Neural Network** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/07%20-%20First%20Neural%20Net.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2007%20-%20Erstes%20Neuronales%20Netzwerk.ipynb)
 
 
+### Data Sources
 
-
-
+Name | Source  
+-----| ------ 
+MNIST | Deng, L. (2012). The mnist database of handwritten digit images for machine learning research. IEEE Signal Processing Magazine, 29(6), 141–142.
 
 ### Wochenplan 
 
