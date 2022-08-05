@@ -32,7 +32,12 @@ Hierfür gibt es drei Möglichkeiten:
    **Als Lehrveranstaltung der Uni Münster weisen wir darauf hin, dass das Benutzen eines Google Service keine Notwendigkeit ist.** Wir bieten zwei Alternativen die  Sie nutzen können. Doch letzen Endes liegt es in ihrem Ermessen welchen Service Sie nutzen wollen. 
    
    Auch ist zu beachten, dass bei der Benutzung von Google Collab manche Software Packete immer wieder von neuen Installiert werden müssen.
-   
+###
+Notebook | English | German
+-------- | ------- | ------
+02. Introduction to Python| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/02%20-%20Introduction%20to%20Python.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche 02 - Einführung Python.ipynb)  
+
+
 ### Wochenplan 
 
 Woche | Vorlesung | Praktikum
