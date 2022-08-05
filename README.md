@@ -11,6 +11,10 @@ Laden Sie bitte dieses sogenante *Repository* herunter. Dafür klicken Sie einfa
 
 Entpacken Sie diese Datei an einen Ort den Sie leicht wieder finden können. Alle Daten die hier online zufinden sind, haben Sie jetzt auch auf ihrem privaten Computer.
 
+```
+!wget https://uni-muenster.sciebo.de/s/TaOR0Lk50rjPHUU/download
+!unzip download
+```
 
 ### Installation
 Um den praktischen Teil des Kurses zu folgen brauchen Sie eine Installation von Python also auch Jupyter Notebook. 
