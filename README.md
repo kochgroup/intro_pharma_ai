@@ -35,7 +35,7 @@ Hierfür gibt es drei Möglichkeiten:
 ###
 Notebook | English | German
 -------- | ------- | ------
-02. Introduction to Python| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/02%20-%20Introduction%20to%20Python.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche 02 - Einführung Python.ipynb)  
+02\. Introduction to Python| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/02%20-%20Introduction%20to%20Python.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2002%20-%20Einführung%20Python.ipynb)  
 
 
 ### Wochenplan 
