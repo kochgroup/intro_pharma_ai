@@ -21,4 +21,5 @@ dependencies:
     - scikit-learn==0.24.2
     - sklearn==0.0
     - tqdm==4.62.2
+    - wget
 
