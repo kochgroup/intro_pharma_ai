@@ -1,5 +1,5 @@
 
-<h2 align ="center">Welcome to: <br> "Introduction to Artitificial Intelligence"</h2>
+<h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence"</h2>
 
 ## Currently this Repsository is being worked on. But feel free to already fork if you feel like it.
 
