@@ -5,16 +5,16 @@
 
 Wir befinden uns auf der GitHub Seite des Kurses "Eine Einführung in die Künstliche Intelligenz". Hier findet ihr alle relevanten Informationen und Dateien die für den Kurs benötigt werden.
 
+
+
+
+
 **Bevor Sie weiter lesen:**
 Laden Sie bitte dieses sogenante *Repository* herunter. Dafür klicken Sie einfach oben rechts auf den grünen Button *Code* und dannach auf *Download ZIP*.  
 ![](Notebooks/Img/install_git.png)
 
 Entpacken Sie diese Datei an einen Ort den Sie leicht wieder finden können. Alle Daten die hier online zufinden sind, haben Sie jetzt auch auf ihrem privaten Computer.
 
-```
-!wget https://uni-muenster.sciebo.de/s/TaOR0Lk50rjPHUU/download
-!unzip download
-```
 
 ### Installation
 Um den praktischen Teil des Kurses zu folgen brauchen Sie eine Installation von Python also auch Jupyter Notebook. 
