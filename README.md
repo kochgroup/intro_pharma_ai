@@ -1,9 +1,15 @@
 
-<h2 align ="center">Wilkommen zum Kurs <br> "Eine Einführung in die Künstliche Intelligenz"</h2>
+<h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence"</h2>
 
-![](Notebooks/Img/general/hello.png)
+## Currently this Repsository is being worked on. But feel free to already fork if you feel like it.
 
+![](Notebooks_GR/Img/general/hello.png)
+![](Notebooks_GER/Img/general/underconstructions.png)
 Wir befinden uns auf der GitHub Seite des Kurses "Eine Einführung in die Künstliche Intelligenz". Hier findet ihr alle relevanten Informationen und Dateien die für den Kurs benötigt werden.
+
+### Important TODOs
+
+- find replacement for enamine high fidelity dataset W12
 
 **Bevor Sie weiter lesen:**
 Laden Sie bitte dieses sogenante *Repository* herunter. Dafür klicken Sie einfach oben rechts auf den grünen Button *Code* und dannach auf *Download ZIP*.  
@@ -11,10 +17,6 @@ Laden Sie bitte dieses sogenante *Repository* herunter. Dafür klicken Sie einfa
 
 Entpacken Sie diese Datei an einen Ort den Sie leicht wieder finden können. Alle Daten die hier online zufinden sind, haben Sie jetzt auch auf ihrem privaten Computer.
 
-```
-!wget https://uni-muenster.sciebo.de/s/TaOR0Lk50rjPHUU/download
-!unzip download
-```
 
 ### Installation
 Um den praktischen Teil des Kurses zu folgen brauchen Sie eine Installation von Python also auch Jupyter Notebook. 
@@ -50,7 +52,7 @@ Notebook | English | German
 **09\. Convolutional Neural Network** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/09%20-%20Convolutional%20Neural%20Network.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2009%20-%20Convolutional%20Neural%20Network.ipynb)
 **10\. Transfer Learning** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/10%20-%20Transfer%20Learning.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2010%20-%20Transfer%20Learning.ipynb)
 **11\. Recurrent Neural Networks** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/11%20-%20Recurrent%20Neural%20Networks.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2011%20-%20Recurrent%20Neural%20Networks.ipynb)
-
+**12\. Autoencoders** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/12%20-%20Autoencoders.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2012%20-%20Autoencoders.ipynb)
 
 
 
