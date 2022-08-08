@@ -1,13 +1,15 @@
 
-<h2 align ="center">Wilkommen zum Kurs <br> "Eine Einführung in die Künstliche Intelligenz"</h2>
+<h2 align ="center">Welcome to: <br> "Introduction to Artitificial Intelligence"</h2>
+
+## Currently this Repsository is being worked on. But feel free to already fork if you feel like it.
 
 ![](Notebooks_GR/Img/general/hello.png)
 ![](Notebooks_GER/Img/general/underconstructions.png)
 Wir befinden uns auf der GitHub Seite des Kurses "Eine Einführung in die Künstliche Intelligenz". Hier findet ihr alle relevanten Informationen und Dateien die für den Kurs benötigt werden.
 
+### Important TODOs
 
-
-
+- find replacement for enamine high fidelity dataset W12
 
 **Bevor Sie weiter lesen:**
 Laden Sie bitte dieses sogenante *Repository* herunter. Dafür klicken Sie einfach oben rechts auf den grünen Button *Code* und dannach auf *Download ZIP*.  
