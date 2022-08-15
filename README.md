@@ -76,7 +76,7 @@ Hierfür gibt es drei Möglichkeiten:
 
 Name | Source  
 -----| ------ 
-MNIST | Deng, L. (2012). The MNIST Database of Handwritten Digit Images for Machine Learning Research. IEEE Signal Processing Magazine, 29(6), 141–142.
+MNIST | LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278-2324.
 BBBP | Martins, I. F., et al. (2012) A Bayesian approach to in silico blood-brain barrier penetration modeling. Journal of Chemical Information and Modeling, 52(6), 1686-1697.
 ### Wochenplan 
 
