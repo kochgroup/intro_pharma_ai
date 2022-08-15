@@ -78,6 +78,7 @@ Name | Source
 -----| ------ 
 MNIST | LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278-2324.
 BBBP | Martins, I. F., et al. (2012) A Bayesian approach to in silico blood-brain barrier penetration modeling. Journal of Chemical Information and Modeling, 52(6), 1686-1697.
+Pneumonia | Kermany, D., Zhang, K., Goldbaum, M. (2018), Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3 <br> Kermany, D. S., Goldbaum, M., Cai, W., Valentim, C. C., Liang, H., Baxter, S. L., ... & Zhang, K. (2018). Identifying medical diagnoses and treatable diseases by image-based deep learning. Cell, 172(5), 1122-1131.
 ### Wochenplan 
 
 Woche | Vorlesung | Praktikum
