@@ -22,6 +22,7 @@ This work is licensed under a
 ## Important TODOs
 
 - find replacement for enamine high fidelity dataset W12
+- add GPU support to W12
 
 Notebook | English | German
 -------- | ------- | ------
