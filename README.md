@@ -23,7 +23,7 @@ This work is licensed under a
 
 - find replacement for enamine high fidelity dataset W12
 - add GPU support to W12
-
+- add Collab Support to thow errors when SMILES cannot be parsed
 Notebook | English | German
 -------- | ------- | ------
 **01\. Introduction to Jupyter** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/01%20-%20Introduction%20to%20Jupyter.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2001%20-%20Einf%C3%BChrung%20Jupyter.ipynb)   
