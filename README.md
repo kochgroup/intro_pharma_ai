@@ -1,19 +1,26 @@
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-<h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence"</h2>
-
-This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical students the basics of Deep Learning.
-No prior coding knowledge is required. These Notebooks are on its own not sufficent to properly convey the knowledge, instructors need to prepare accompanying lectures. These notebooks are also not designed to teach students to train neural networks without any aid. Rather they aim to teach about the workings of neural networks through code completion.
-
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
+
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+<h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence"</h2>
+
+This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical students the basics of Deep Learning. No prior coding knowledge is required. These Notebooks are on their own not sufficient to properly convey the knowledge, instructors need to prepare accompanying lectures. These notebooks are also not designed to teach students to train neural networks without any aid. Rather they aim to teach about the workings of neural networks through code completion.
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+This work was funded by the "[Apotheker Stiftung Westfalen-Lippe](https://www.akwl.de/apothekerstiftung/)"
+
+### Usage
+
+1. **Goolge Colab** <br> The easiest way to use the Notebooks is to open them in [Google Colab](https://colab.research.google.com/). The only thing needed is a Google Account. You can open a Juypter Notebook by simply clicking on a button in the table below. All notebooks will work out-of-the-box.
+
+2. **Local Installation** <br> If you do not want to run the notebooks through a Google service, you can also setup your own local Python environment. We provide an instruction on how to do this. Like with Colab all notebooks will work straight aways, as soon as the loca installation has been completed.
 
 
 ![](Notebooks_GR/Img/general/hello.png)
