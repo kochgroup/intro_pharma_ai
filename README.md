@@ -2,7 +2,8 @@
 
 <h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence"</h2>
 
-
+This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical students the basics of Deep Learning.
+No prior coding knowledge is required. These Notebooks are on its own not sufficent to properly convey the knowledge, instructors need to prepare accompanying lectures. These notebooks are also not designed to teach students to train neural networks without any aid. Rather they aim to teach about the workings of neural networks through code completion.
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
@@ -14,10 +15,8 @@ This work is licensed under a
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 
-## Currently this Repository is being worked on. But feel free to already fork if you feel like it.
 
 ![](Notebooks_GR/Img/general/hello.png)
-![](Notebooks_GER/Img/general/underconstructions.png)
 
 ## Important TODOs
 
