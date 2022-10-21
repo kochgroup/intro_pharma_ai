@@ -26,7 +26,7 @@ This work was funded by the "[Apotheker Stiftung Westfalen-Lippe](https://www.ak
 ![](Notebooks_GR/Img/general/hello.png)
 
 ## Important TODOs
-
+- replace testdata in WEEK 2
 - find replacement for enamine high fidelity dataset W12
 - add GPU support to W12
 - add Collab Support to thow errors when SMILES cannot be parsed
