@@ -26,6 +26,7 @@ This work was funded by the "[Apotheker Stiftung Westfalen-Lippe](https://www.ak
 ![](Notebooks_GR/Img/general/hello.png)
 
 ## Important TODOs
+- CHANGE DESCRIPTION OF DATA IN WEEL 4 Data SCience , it is not molecular weight bus schmelz and siedepunkt
 - replace testdata in WEEK 2
 - find replacement for enamine high fidelity dataset W12
 - add GPU support to W12
