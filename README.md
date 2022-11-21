@@ -44,15 +44,6 @@ Notebook | English | German
 **14\. Summary** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/14%20-%20Summary.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2014%20-%20Zusammenfassung.ipynb)
 
 
-## Important TODOs
-- replace testdata in WEEK 2
-- add GPU support to W12
-- add Collab Support to thow errors when SMILES cannot be parsed
-- Woche 04
-  - FPR ist falsch
-  - AUC von 0 beduetet nicht perfekte Klassifizering nur flasch rum
-
-- WOCHE 9 CNN Fehler durch default parameter bei Convolitopm
 
 ### Data Sources
 
@@ -67,3 +58,13 @@ GDB 11 | Fink, T., & Reymond, J. L. (2007). Virtual exploration of the chemical 
 # Additional Information
 
 [ImageNet Background](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/)
+
+
+
+## Important TODOs
+- add Collab Support to thow errors when SMILES cannot be parsed
+- Woche 04
+  - FPR ist falsch
+  - AUC von 0 beduetet nicht perfekte Klassifizering nur flasch rum
+
+- WOCHE 9 CNN Fehler durch default parameter bei Convolution
