@@ -25,12 +25,6 @@ This work was funded by the "[Apotheker Stiftung Westfalen-Lippe](https://www.ak
 
 ![](Notebooks_GR/Img/general/hello.png)
 
-## Important TODOs
-- CHANGE DESCRIPTION OF DATA IN WEEL 4 Data SCience , it is not molecular weight bus schmelz and siedepunkt
-- replace testdata in WEEK 2
-- find replacement for enamine high fidelity dataset W12
-- add GPU support to W12
-- add Collab Support to thow errors when SMILES cannot be parsed
 
 Notebook | English | German
 -------- | ------- | ------
@@ -50,6 +44,12 @@ Notebook | English | German
 **14\. Summary** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/14%20-%20Summary.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2014%20-%20Zusammenfassung.ipynb)
 
 
+## Important TODOs
+- replace testdata in WEEK 2
+- add GPU support to W12
+- add Collab Support to thow errors when SMILES cannot be parsed
+
+
 ### Data Sources
 
 Name | Source  
@@ -58,6 +58,8 @@ MNIST | LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based 
 BBBP | Martins, I. F., et al. (2012) A Bayesian approach to in silico blood-brain barrier penetration modeling. Journal of Chemical Information and Modeling, 52(6), 1686-1697.
 Pneumonia | Kermany, D., Zhang, K., Goldbaum, M. (2018), Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3 <br> Kermany, D. S., Goldbaum, M., Cai, W., Valentim, C. C., Liang, H., Baxter, S. L., ... & Zhang, K. (2018). Identifying medical diagnoses and treatable diseases by image-based deep learning. Cell, 172(5), 1122-1131.
 Cats & Dogs | Parkhi, O. M., Vedaldi, A., Zisserman, A., & Jawahar, C. V. (2012). Cats and dogs. In 2012 IEEE conference on computer vision and pattern recognition (pp. 3498-3505). IEEE.
-# Weitere Informationen
+GDB 11 | Fink, T., & Reymond, J. L. (2007). Virtual exploration of the chemical universe up to 11 atoms of C, N, O, F: assembly of 26.4 million structures (110.9 million stereoisomers) and analysis for new ring systems, stereochemistry, physicochemical properties, compound classes, and drug discovery. Journal of Chemical Information and Modeling, 47(2), 342-353.
+
+# Additional Information
 
 [ImageNet Background](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/)
