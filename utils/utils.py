@@ -8,6 +8,8 @@ import torch
 import numpy as np
 import pandas as pd
 import random
+import os
+import sys
 from matplotlib import pyplot as plt
 
 #%% Plot SVC
@@ -167,8 +169,6 @@ def hide_toggle(for_next=False):
 
 def create_dict(smiles, add_tokens=False):
     vocabulary = []
-    if add_tokens:
-        vocabulary = ["<sos>", "<eos>", "<pad>"]
     for smile in smiles:
         atoms = []
         i = 0
@@ -190,6 +190,9 @@ def create_dict(smiles, add_tokens=False):
                 i += 1
 
         vocabulary += list(set(atoms) - set(vocabulary))
+    vocabulary = sorted(vocabulary)
+    if add_tokens:
+        vocabulary = ["<sos>", "<eos>", "<pad>"] + vocabulary
     return {vocabulary[i]: i for i in range(len(vocabulary))}
 
 
@@ -289,3 +292,9 @@ def evaluate(model, loader, dictionary):
         perc_ident_ll.append(smiles_ident / len(smiles_pred))
 
     return np.sum(perc_valid_ll) / len(loader), np.sum(perc_ident_ll) / len(loader)
+
+
+
+
+
+
