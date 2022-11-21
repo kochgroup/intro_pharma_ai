@@ -48,7 +48,11 @@ Notebook | English | German
 - replace testdata in WEEK 2
 - add GPU support to W12
 - add Collab Support to thow errors when SMILES cannot be parsed
+- Woche 04
+  - FPR ist falsch
+  - AUC von 0 beduetet nicht perfekte Klassifizering nur flasch rum
 
+- WOCHE 9 CNN Fehler durch default parameter bei Convolitopm
 
 ### Data Sources
 
