@@ -61,10 +61,3 @@ GDB 11 | Fink, T., & Reymond, J. L. (2007). Virtual exploration of the chemical 
 
 
 
-## Important TODOs
-- add Collab Support to thow errors when SMILES cannot be parsed
-- Woche 04
-  - FPR ist falsch
-  - AUC von 0 beduetet nicht perfekte Klassifizering nur flasch rum
-
-- WOCHE 9 CNN Fehler durch default parameter bei Convolution
