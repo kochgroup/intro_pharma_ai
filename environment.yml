@@ -22,4 +22,5 @@ dependencies:
     - sklearn==0.0
     - tqdm==4.62.2
     - wget
+    - seaborn
 
