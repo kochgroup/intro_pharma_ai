@@ -12,6 +12,7 @@ This repository contains a collection of Jupyter Notebooks, which can be used to
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 This work was funded by the "[Apotheker Stiftung Westfalen-Lippe](https://www.akwl.de/apothekerstiftung/)"
