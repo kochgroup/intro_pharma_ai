@@ -8,7 +8,10 @@
 
 <h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence"</h2>
 
-This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical and chemistry students the basics of Deep Learning. No prior coding knowledge is required. These Notebooks are on their own not sufficient to properly convey the knowledge, instructors need to prepare accompanying lectures. These notebooks are also not designed to teach students to train neural networks without any aid. Rather they aim to teach about the workings of neural networks through code completion.
+This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical and chemistry students the basics of Deep Learning. No prior coding knowledge is required. The article introducing this repository can be found here: https://doi.org/10.1002/ardp.202200628
+
+We want to point out that these notebooks are, on their own, not sufficient to properly convey the knowledge and teach students about deep learning. Instructors need to prepare their own accompanying lectures. It is also important to mention that these notebooks are not designed to bring students to a level where they are able to train neural networks without any aid. Rather, the notebooks are designed to teach students the theoretical concepts to understand neural networks through code completion. We believe, as explained in more detail in the paper, that the theory bheind neural networks is easy to understand. But learning about them, is difficult as it requieres a solid understanding of a programming language. So students would get stuck on syntactical problems posed by the programming language rather than the theory behind neural networks.
+
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
@@ -21,7 +24,7 @@ This work was funded by the "[Apotheker Stiftung Westfalen-Lippe](https://www.ak
 
 1. **Goolge Colab** <br> The easiest way to use the Notebooks is to open them in [Google Colab](https://colab.research.google.com/). The only thing needed is a Google Account. You can open a Juypter Notebook by simply clicking on a button in the table below. All notebooks will work out-of-the-box.
 
-2. **Local Installation** <br> If you do not want to run the notebooks through a Google service, you can also setup your own local Python environment. We provide an instruction on how to do this. Like with Colab all notebooks will work straight aways, as soon as the loca installation has been completed.
+2. **Local Installation** <br> If you do not want to run the notebooks through a Google service, you can also setup your own local Python environment. We provide an instruction on how to do this. Like with Colab all notebooks will work straight away, as soon as the local installation has been completed.
 
 
 ![](Notebooks_GR/Img/general/hello.png)
@@ -44,9 +47,12 @@ Notebook | English | German
 **13\. Graph Neural Networks** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/13%20-%20Graph%20Neural%20Networks.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2013%20-%20Graph%20Neural%20Networks.ipynb)
 **14\. Summary** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/14%20-%20Summary.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2014%20-%20Zusammenfassung.ipynb)
 
+# Contribution or Expensions
+
+We hope that these notebooks can be a starting point for others to expand on or contribute to. Everyone is free to adapt this repository (in accoradance with the above mentioned license).
 
 
-### Data Sources
+# Data Sources
 
 Name | Source  
 -----| ------ 
