@@ -10,9 +10,6 @@
 
 This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical and chemistry students the basics of Deep Learning. No prior coding knowledge is required. The article introducing this repository can be found here: https://doi.org/10.1002/ardp.202200628
 
-We want to point out that these notebooks are, on their own, not sufficient to properly convey the knowledge and teach students about deep learning. Instructors need to prepare their own accompanying lectures. It is also important to mention that these notebooks are not designed to bring students to a level where they are able to train neural networks without any aid. Rather, the notebooks are designed to teach students the theoretical concepts to understand neural networks through code completion. We believe, as explained in more detail in the paper, that the theory bheind neural networks is easy to understand. But learning about them, is difficult as it requieres a solid understanding of a programming language. So students would get stuck on syntactical problems posed by the programming language rather than the theory behind neural networks.
-
-
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
@@ -46,6 +43,9 @@ Notebook | English | German
 **12\. Autoencoders** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/12%20-%20Autoencoders.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2012%20-%20Autoencoders.ipynb)
 **13\. Graph Neural Networks** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/13%20-%20Graph%20Neural%20Networks.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2013%20-%20Graph%20Neural%20Networks.ipynb)
 **14\. Summary** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/14%20-%20Summary.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2014%20-%20Zusammenfassung.ipynb)
+
+We want to point out that these notebooks are, on their own, not sufficient to properly convey the knowledge and teach students about deep learning. Instructors need to prepare their own accompanying lectures. It is also important to mention that these notebooks are not designed to bring students to a level where they are able to train neural networks without any aid. Rather, the notebooks are designed to teach students the theoretical concepts to understand neural networks through code completion. We believe, as explained in more detail in the paper, that the theory bheind neural networks is easy to understand. But learning about them, is difficult as it requieres a solid understanding of a programming language. So students would get stuck on syntactical problems posed by the programming language rather than the theory behind neural networks.
+
 
 # Contribution or Expensions
 
