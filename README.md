@@ -6,9 +6,23 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
+  
+```diff
+! In 2023 the Koch Research Group is hosting a Summer School providing a theoretical 
+! and practical introduction to AI with focus on drug design.
+
+! You can apply until the 18.06.2023 at: 
+```
+[AI4MedChem Homepage](https://www.uni-muenster.de/Chemie.pz/forschen/ag/koch/ai4medchem.html)
+
+
+
+
+
+
 <h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence for Life Science Students"</h2>
 
-This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical and chemistry students the basics of Deep Learning. No prior coding knowledge is required. The article introducing this repository can be found here: https://doi.org/10.1002/ardp.202200628 and was written by [Janosch Menke](https://github.com/JanoschMenke), [Samuel Homberg](https://github.com/SamuelHomberg) and [Oliver Koch][https://github.com/okochwwu].
+This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical and chemistry students the basics of Deep Learning. No prior coding knowledge is required. The article introducing this repository can be found here: https://doi.org/10.1002/ardp.202200628 and was written by [Janosch Menke](https://github.com/JanoschMenke), [Samuel Homberg](https://github.com/SamuelHomberg) and [Oliver Koch](https://github.com/okochwwu).
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
