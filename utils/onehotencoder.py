@@ -2,6 +2,14 @@ from rdkit import Chem
 import numpy as np
 
 def make_graph_features(m, atom_types):
+    """_summary_
+
+    Args:
+        m (rdkit mol): Molecule to be transformed into a graph.
+
+        atom_types (list): List of all atom types present in the dataset 
+            represented by their atomic numbers.
+    """
     features = np.zeros((m.GetNumAtoms(), len(atom_types)))
     for i, a in enumerate(m.GetAtoms()):
         features[i] = a.GetAtomicNum()
