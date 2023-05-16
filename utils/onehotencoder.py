@@ -1,6 +1,20 @@
 from rdkit import Chem
 import numpy as np
 
+def make_graph_features(m, atom_types):
+    """_summary_
+
+    Args:
+        m (rdkit mol): Molecule to be transformed into a graph.
+
+        atom_types (list): List of all atom types present in the dataset 
+            represented by their atomic numbers.
+    """
+    features = np.zeros((m.GetNumAtoms(), len(atom_types)))
+    for i, a in enumerate(m.GetAtoms()):
+        features[i] = a.GetAtomicNum()
+    features = np.where(features == np.tile(atom_types, (m.GetNumAtoms(), 1)), 1, 0)
+    return features
 
 def onehotencode(mols):
     """Function to one-hot encode the atoms.
@@ -19,13 +33,6 @@ def onehotencode(mols):
                 atom_types.append(atom.GetAtomicNum())
     atom_types.sort()
     # print('atom_types',atom_types)
-
-    def make_graph_features(m, atom_types):
-        features = np.zeros((m.GetNumAtoms(), len(atom_types)))
-        for i, a in enumerate(m.GetAtoms()):
-            features[i] = a.GetAtomicNum()
-        features = np.where(features == np.tile(atom_types, (m.GetNumAtoms(), 1)), 1, 0)
-        return features
 
     onehotencodedatoms = [make_graph_features(m, atom_types) for m in mols]
     return onehotencodedatoms
