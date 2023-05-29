@@ -80,5 +80,10 @@ GDB 11 | Fink, T., & Reymond, J. L. (2007). Virtual exploration of the chemical 
 
 [ImageNet Background](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/)
 
+## Further Instructional Materials
+[TeachOpenCADD](https://github.com/volkamerlab/teachopencadd)
+A collection of notebooks covering a wide range of topics related to cheminformatics and data science, like collecting and cleaning molecular data in Python, but also more advanced topics like Docking.
+
+
 
 
