@@ -1,0 +1,18 @@
+project:
+  type: book
+
+book:
+  title: "EPFL CH-457"
+  author: "Philippe Schwaller"
+  date: "26/5/2023"
+  chapters:
+    - index.qmd
+    - references.qmd
+
+bibliography: references.bib
+csl: nature.csl
+
+format:
+  html:
+    theme: cosmo
+  pdf:
