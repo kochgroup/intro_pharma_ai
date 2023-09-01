@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Introduction to AI for Life Sciences"
+  title: "Introduction to AI for Life Sciences Students"
   author: "Janosch Menke, Samuel Homberg, Oliver Koch"
   date: "01.01.2023"
   chapters:
