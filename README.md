@@ -7,7 +7,7 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 
-<h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence for Life Science Students"</h2>
+<h1 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence for Life Science Students"</h1>
 
 This repository contains a collection of Jupyter Notebooks, which can be used to teach pharmaceutical and chemistry students the basics of Deep Learning. No prior coding knowledge is required. The article introducing this repository can be found here: https://doi.org/10.1002/ardp.202200628 and was written by [Janosch Menke](https://github.com/JanoschMenke), [Samuel Homberg](https://github.com/SamuelHomberg) and [Oliver Koch](https://github.com/okochwwu).
 
