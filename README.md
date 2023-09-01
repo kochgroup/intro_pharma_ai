@@ -6,19 +6,6 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-  
-```diff
-! In 2023 the Koch Research Group is hosting a Summer School providing a theoretical 
-! and practical introduction to AI with focus on drug design.
-
-! You can apply until the 18.06.2023 at its homepage below.
-```
-[AI4MedChem Homepage](https://www.uni-muenster.de/Chemie.pz/forschen/ag/koch/ai4medchem.html)
-
-
-
-
-
 
 <h2 align ="center">Welcome to: <br> "Introduction to Artificial Intelligence for Life Science Students"</h2>
 
