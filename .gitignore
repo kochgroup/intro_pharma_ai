@@ -5,3 +5,4 @@ Notebooks_EN/.ipynb_checkpoints/
 Notebooks/Img.zip
 data.tar.gz
 Notebooks_EN/data.zip
+*.DS_Store
