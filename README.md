@@ -45,6 +45,16 @@ Notebook | English | German
 **13\. Graph Neural Networks** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/13%20-%20Graph%20Neural%20Networks.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2013%20-%20Graph%20Neural%20Networks.ipynb)
 **14\. Summary** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/14%20-%20Summary.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_GER/Woche%2014%20-%20Zusammenfassung.ipynb)
 
+---
+
+### New Notebooks
+
+Notebook | English
+-------- | -------
+**Transformer** |  *link_to_notebook*
+**Co-folding**  |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samuelhomberg/intro_pharma_ai/blob/main/Notebooks_EN/Co-folding%20with%20boltz.ipynb) 
+
+
 We want to point out that these notebooks are, on their own, not sufficient to properly convey the knowledge and teach students about deep learning. Instructors need to prepare their own accompanying lectures. It is also important to mention that these notebooks are not designed to bring students to a level where they are able to train neural networks without any aid. Rather, the notebooks are designed to teach students the theoretical concepts to understand neural networks through code completion. We believe, as explained in more detail in the paper, that the theory bheind neural networks is easy to understand. But learning about them, is difficult as it requieres a solid understanding of a programming language. So students would get stuck on syntactical problems posed by the programming language rather than the theory behind neural networks.
 
 
