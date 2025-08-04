@@ -5,4 +5,8 @@ Notebooks_EN/.ipynb_checkpoints/
 Notebooks/Img.zip
 data.tar.gz
 Notebooks_EN/data.zip
+Notebooks_EN/*.fasta
+Notebooks_EN/*.cif
+Notebooks_EN/*.pdb
+Notebooks_EN/boltz_results*
 *.DS_Store
