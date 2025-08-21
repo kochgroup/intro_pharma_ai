@@ -51,7 +51,9 @@ Notebook | English | German
 
 Notebook | English
 -------- | -------
-**Transformer** |  *link_to_notebook*
+**Transformer** |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/15%20-%20Transformer.ipynb)
+**REINVENT4-DeNovoDesign** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/16%20-%20REINVENT4_DeNovoDesign.ipynb)
+**REINVENT4-Libinvent** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/17%20-%20Libinvent.ipynb)
 **Co-folding**  |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kochgroup/intro_pharma_ai/blob/main/Notebooks_EN/Co-folding%20with%20boltz.ipynb) 
 
 
