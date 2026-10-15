@@ -1,7 +1,7 @@
 from IPython.display import Image, HTML
-from rdkit.Chem.Draw import rdMolDraw2D
-from rdkit.Chem import Draw, AllChem
 from rdkit import Chem
+from rdkit.Chem import Draw, AllChem
+from rdkit.Chem.Draw import rdMolDraw2D
 from tqdm import tqdm
 from torch import nn
 import torch
@@ -10,7 +10,7 @@ import pandas as pd
 import random
 import os
 import sys
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 
 #%% Plot SVC
 
@@ -37,7 +37,7 @@ def plot_svc(data, model):
 
     fig, ax = plt.subplots()
     # title for the plots
-    title = "Decision surface of linear SVC "
+    title = "Decision surface of the SVC "
     # Set-up grid for plotting.
     X0 = data.x1
     X1 = data.x2
@@ -86,12 +86,11 @@ def get_fingerprints(
     feature_matrix = pd.DataFrame(
         np.zeros((data.shape[0], bitSize_circular)), dtype=int
     )
+    fpgen = AllChem.GetMorganGenerator(radius=morgan_radius, fpSize=bitSize_circular)
     for i in tqdm(range(data.shape[0])):
         feature_matrix.iloc[i, :] = np.array(
-            AllChem.GetMorganFingerprintAsBitVect(
-                Chem.MolFromSmiles(data.smiles.iloc[i]),
-                morgan_radius,
-                nBits=bitSize_circular,
+            fpgen.GetFingerprint(
+                Chem.MolFromSmiles(data.smiles.iloc[i])
             )
         )
 
