@@ -10,3 +10,4 @@ Notebooks_EN/*.cif
 Notebooks_EN/*.pdb
 Notebooks_EN/boltz_results*
 *.DS_Store
+.vscode/
