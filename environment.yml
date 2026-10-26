@@ -1,25 +1,18 @@
 name: intro_ai
 channels:
-  - rdkit
-  - pytorch
   - defaults
 dependencies:
   - python=3.13.10
   - jupyter=1.1.1
   - matplotlib=3.10.7
   - notebook=7.5.0
-  - numpy=2.3.5
   - pandas=2.3.3
   - pip
-  - pytorch=2.9.1
-  - rdkit=2025.9.1
-  - scipy=1.16.3
-  - seaborn=0.13.2
-  # - torchaudio=2.7.1
-  - torchvision=0.24.1
   - pip:
+    - rdkit==2025.9.1
     - scikit-learn==1.7.1
-    # - sklearn==0.0
+    - torch==2.9.1
+    - torchvision==0.24.1
     - tqdm==4.67.1
     - wget
     - seaborn
